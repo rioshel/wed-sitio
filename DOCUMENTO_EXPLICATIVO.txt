@@ -1,0 +1,24 @@
+CREACIÓN DE UN SITIO WEB INFORMATIVO RESPONSIVO
+
+1. ESTRUCTURA DEL SITIO
+El proyecto se llama EcoVida y está formado por cuatro páginas: Inicio, Nosotros, Servicios y Contacto. Todas incluyen un encabezado con logo y menú de navegación, una sección principal con el contenido propio de cada página y un pie de página. La página Inicio presenta el objetivo del sitio y tarjetas informativas. Nosotros explica la misión. Servicios muestra tres opciones y Contacto contiene un formulario.
+
+Se utilizaron etiquetas semánticas de HTML5: header para el encabezado, nav para el menú, main para el contenido principal, section para agrupar contenidos, article para las tarjetas, form para el formulario y footer para el pie de página. Esta estructura facilita la lectura del código y mejora la accesibilidad.
+
+2. TECNOLOGÍAS UTILIZADAS
+Se utilizó HTML5 para crear la estructura y CSS3 externo (css/estilos.css) para el diseño. CSS Grid organiza las tarjetas de servicios y Flexbox distribuye el encabezado, la portada y la sección Nosotros. Se usaron variables CSS en :root para personalizar colores. También se incluyeron transiciones y animaciones suaves al pasar el cursor sobre botones y tarjetas.
+
+El sitio es responsivo mediante una Media Query. En pantallas menores de 700px, las columnas se convierten en una sola columna y el menú se adapta para facilitar la visualización en celulares. Las imágenes son SVG, por lo que son ligeras y mantienen buena calidad.
+
+3. DIFICULTADES Y SOLUCIONES
+Una dificultad fue lograr que el diseño se viera ordenado tanto en computadora como en celular. Se resolvió usando Flexbox, Grid y una Media Query. Otra dificultad fue mantener una paleta de colores consistente; para solucionarlo se crearon variables CSS. Finalmente, se agregó transition al botón para que el cambio de color al pasar el cursor fuera suave y atractivo.
+
+GUION BREVE PARA EXPOSICIÓN (5 MINUTOS)
+1. Presento EcoVida, un sitio informativo responsivo sobre bienestar y naturaleza.
+2. Muestro el menú: permite navegar entre las cuatro páginas.
+3. En Inicio explico la portada y las tarjetas creadas con CSS Grid.
+4. En Nosotros muestro el uso de Flexbox para texto e imagen.
+5. En Servicios explico las tarjetas y su efecto al pasar el cursor.
+6. En Contacto muestro el formulario con campos requeridos.
+7. Explico que el CSS es externo, usa variables, transiciones y Media Queries para celulares.
+8. Concluyo mencionando que el sitio cumple estructura semántica, diseño adaptable y navegación funcional.
